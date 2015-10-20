@@ -1,0 +1,51 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+
+<div id="calculator">
+	<FORM NAME="Calc">
+		<TABLE>
+			<TR>
+				<TD>
+					<INPUT TYPE="button" NAME="clear" class="clear" VALUE="C" OnClick="Calc.Input.value = '';document.getElementById('google').remove();">
+					<INPUT TYPE="text" NAME="Input" class="screen">
+				</TD>
+			</TR>
+			<TR>
+				<TD>
+					<INPUT TYPE="button" NAME="seven" class="number" VALUE="7">
+					<INPUT TYPE="button" NAME="eight" class="number" VALUE="8">
+					<INPUT TYPE="button" NAME="nine"  class="number" VALUE="9">
+					<INPUT TYPE="button" NAME="times" class="operator" VALUE="x">
+
+					<INPUT TYPE="button" NAME="four"  class="number"  VALUE="4">
+					<INPUT TYPE="button" NAME="five"  class="number"  VALUE="5">
+					<INPUT TYPE="button" NAME="six"   class="number"   VALUE="6">
+					<INPUT TYPE="button" NAME="minus" class="operator" VALUE="-">
+
+					<INPUT TYPE="button" NAME="one"   class="number" VALUE="1">
+					<INPUT TYPE="button" NAME="two"   class="number" VALUE="2">
+					<INPUT TYPE="button" NAME="three" class="number" VALUE="3">
+					<INPUT TYPE="button" NAME="plus"  class="operator" VALUE="+">
+
+					<INPUT TYPE="button" NAME="zero"  class="number" VALUE="0">
+					<INPUT TYPE="button" NAME="DoIt"  class="the-eval" VALUE="=">
+					<INPUT TYPE="button" NAME="div"   class="operator" VALUE="/">
+				</TD>
+			</TR>
+		</TABLE>
+	</FORM>
+</div>
+
+<div id="meaning">
+	<img src="42.jpg">
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
